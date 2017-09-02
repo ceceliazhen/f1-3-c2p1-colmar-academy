@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  background-color: #FFFEFF;
+}
+
+.monospace {
+  font-family: "monospace", serif;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #555555;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24px;
+}
+
+/* navigational menu*/
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+
+.menu-logo img {
+  height: 70px;
+  align-content:center;
+}
+
+.logo1 {
+  font-weight: bold;
+  font-size: 32px;
+  color:#4A4949;
+}
+
+.logo2 {
+  font-size: 32px;
+  color: #B0AFAF;
+}
+
+#desktop-nav {
+  display: block;
+  margin-left:686px;
+}
+
+
+#desktop-nav a {
+  margin-left: 16px;
+  font-size: 25px;
+  color: #555555;
+  float: left;
+}
+
+#mobile-nav a {
+  display: none;
+}
+
+/*banner section*/
+#learn {
+  background-color: #DBDBDC;
+  padding: 32px 0px 32px 24px;
+  display: flex;
+}
+
+
+#learn h1 {
+  font-family: "monospace", sans-serif;
+  font-size: 3.5rem;
+  line-height: 130%;
+  font-weight: bold;
+  color:#4E4E4E;
+  letter-spacing: +2px;
+}
+
+#learn h2 {
+  font-size: 2rem;
+  line-height: 155%;
+  margin: 32px 0 24px 0;
+  font-weight: bold;
+  color:#4E4E4E;
+  letter-spacing: +2px;
+}
+
+button {
+  background-color: #4E4E4E;
+  color: #FEFFFF;
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.5rem;
+  padding: 8px 0;
+  margin-top: 40px;
+  border: 2px solid #4E4E4E;
+  width: 550px;
+}
+
+button:hover {
+  background-color: #CBCACA;
+  color: #4E4E4E;
+}
+
+/*set banner image to 50%*/
+.learn-img-header {
+  width: 60%;
+  height: auto;
+}
+
+.img-header {
+  width: 100%;
+  height: auto;
+}
+
+.banner-learn {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-left: 42px;
+}
+
+/*section:a man reading a book*/
+#practice {
+  display: flex;
+}
+
+#practice h1 {
+  font-family: "monospace", sans-serif;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  margin: 32px 0 24px 0;
+  color:#4E4E4E;
+  letter-spacing: +1px;
+  font-weight: bold;
+}
+
+
+#practice h2 {
+  font-family: "monospace", sans-serif;
+  font-size: 1.8rem;
+  color:#4E4E4E;
+  letter-spacing: +2px;
+}
+
+#practice p {
+  font-family: "monospace", sans-serif;
+  font-size: 1.25em;
+  color:#828281;
+  line-height: 140%;
+  margin: 8px 0;
+}
+
+#practice h3 {
+  font-family: "monospace", sans-serif;
+  font-size: 1.25rem;
+  color:#525252;
+  margin: 32px 0;
+  font-weight:normal;
+}
+
+#info {
+  color:#4E4E4E;
+  font-size: 22px;
+  font-weight:normal;
+  margin: 8px 0;
+  line-height:150%;
+}
+
+#practice a {
+  text-decoration: none;
+  color: #4CB0F2;
+  margin: 8px 0;
+  font-size: 1.35em;
+}
+
+#practice a:hover {
+  text-decoration: underline;
+}
+
+.practice-main {
+  padding: 32px 24px;
+  border-right: 1px solid #DBDBDC;
+}
+
+
+.holder-img-practice {
+  width: 98%;
+  height: auto;
+}
+
+.img-practice {
+  width: 100%;
+  height: auto;
+}
+
+.practice-main p {
+  font-family: "monospace", sans-serif;
+  font-size: 1.35em;
+  color:#828281;
+  line-height: 140%;
+}
+
+
+.campus-info {
+  min-width: 400px;
+}
+
+.campus-info-single {
+  display: flex;
+  min-height: 168px;
+  border-bottom: 1px solid #DBDBDC;
+}
+
+.holder-img-campus-info {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.img-campus-info {
+  width: 100%;
+  height: auto;
+}
+
+.campus-info-text {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+
+.img-campus-info-mobile {
+  display: none;
+}
+
+/*guest speaker color*/
+.grey {
+  background-color: #DBDBDC;
+}
+
+/*learning columns*/
+#learning {
+  background-color: #DBDBDC;
+  padding-bottom: 16px;
+}
+
+#learning h1 {
+  text-align: center;
+  font-family: "monospace", sans-serif;
+  font-size: 2.75rem;
+  line-height: 2rem;
+  padding: 32px 0;
+  color:#4E4E4E;
+  letter-spacing: +1px;
+  font-weight: bold;
+}
+
+#learning h2 {
+  font-family: "monospace", sans-serif;
+  font-size: 38px;
+  color:#4E4E4E;
+  margin: 16px 0;
+  font-weight: bold;
+}
+
+#learning h3 {
+  font-family: "Oxygen", sans-serif;
+  color:#7E7E7F;
+  font-size: 26px;
+  margin: 8px 0;
+  padding: 12px 0;
+  line-height: 135%;
+  font-weight:bold;
+}
+
+#learning p {
+  font-family: "Oxygen", sans-serif;
+  color:#7E7E7F;
+  font-size: 26px;
+  margin: 8px 0;
+  line-height: 135%;
+  font-weight:normal;
+}
+
+/*course selections*/
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+}
+
+.holder-course {
+  background-color: #FFFFFF;
+  width: 30%;
+  margin: 16px;
+  padding-bottom: 24px;
+}
+
+.course-txt {
+  padding: 16px 16px;
+}
+
+.holder-course-img {
+  width: 100%;
+  height: auto;
+}
+
+.course-img {
+  width: 100%;
+  height: auto;
+}
+
+/*thesis with video*/
+#thesis {
+  background-color: #F3F3F4;
+  padding-bottom: 32px;
+}
+
+#thesis h1 {
+  font-family: "monospace", sans-serif;
+  font-size: 2.75rem;
+  line-height: 2rem;
+  padding: 32px 0;
+  color:#4E4E4E;
+  letter-spacing: +1px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#thesis h3 {
+  font-family: "monospace", sans-serif;
+  font-size: 2rem;
+  color:#4E4E4E;
+  letter-spacing: +2px;
+}
+
+#thesis h2 {
+  font-family: "monospace", sans-serif;
+  font-size: 35px;
+  color:#4E4E4E;
+  margin: 16px 0;
+  font-weight: bold;
+}
+
+
+#thesis h4 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 26px;
+  font-weight:normal;
+  margin: 8px 0;
+  line-height:150%;
+  color: #6B6B6C;
+}
+
+.thesis {
+  width: 100%;
+  display: flex;
+}
+
+.holder-vid {
+  height: auto;
+  width: 100%;
+  padding-left: 24px;
+}
+
+video {
+  height: auto;
+  width: 95%;
+}
+
+.thesis-txt {
+  margin: 24px 0 32px 24px;
+}
+
+.thesis-txt p {
+  margin-top: 16px;
+  font-family: "monospace", sans-serif;
+  font-size: 1.25em;
+  color:#595959;
+  line-height: 140%;
+  font-weight: normal;
+}
+
+.thesis-info {
+  min-width: 400px;
+  margin-left: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.thesis-info-single {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.holder-thesis-img {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.thesis-img {
+  width: 100%;
+  height: auto;
+}
+
+.thesis-info-txt {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+footer {
+  background-color: #F3F3F4;
+  color: #595959;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copy {
+  display: block;
+  padding: 16px 0;
+}
+
+.links {
+}
+
+footer a {
+  display: inline-block;
+  margin: 16px 0 0 16px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
